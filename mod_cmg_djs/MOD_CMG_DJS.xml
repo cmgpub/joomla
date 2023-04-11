@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="4.0.0" client="site" method="upgrade">
+    <name>MOD_CMG_DJS</name>
+    <author>ZU</author>
+    <version>1.0.3</version>
+    <authorEmail>info@cmg.pub</authorEmail>
+    <authorUrl>http://www.cmg.pub</authorUrl>
+    <copyright>CMG.PUB</copyright>
+    <license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+    <description>MOD_CMG_DJS_XML_DESCRIPTION</description>
+    <files>
+        <filename>MOD_CMG_DJS.xml</filename>
+        <filename module="MOD_CMG_DJS">MOD_CMG_DJS.php</filename>
+        <filename>index.html</filename>
+        <filename>modcmgdjshelper.php</filename>
+        <filename>tmpl/default.php</filename>
+        <filename>tmpl/index.html</filename>
+        <filename>Helper</filename>
+        <filename>language</filename>
+    </files>
+    <config>
+  		<fields name="params">
+  			<fieldset name="basic">
+  				<field
+  					name="xtitle"
+  					type="text"
+  					label="MOD_CMG_DJS_XTITLE"
+  					size="30"
+  					required="true"
+  				/>
+  				<field
+  					name="title"
+  					type="text"
+  					label="MOD_CMG_DJS_TITLE"
+  					size="30"
+  					required="true"
+  				/>
+
+  					<field
+  						name="kouhao"
+  						type="text"
+  						label="MOD_CMG_DJS_KOUHAO"
+  						size="30"
+  						required="true"
+  					/>
+
+              <field
+  							name="Year"
+  							type="text"
+  							label="MOD_CMG_DJS_YEAR"
+  							size="30"
+  						>
+        			   <option value="1">MOD_CMG_DJS_YEARBZ</option>
+              </field>
+              <field
+  							name="Month"
+  							type="text"
+  							label="MOD_CMG_DJS_MONTH"
+  							size="30"
+  						>
+        			   <option value="1">MOD_CMG_DJS_MONTHBZ</option>
+              </field>
+              <field
+  							name="Date"
+  							type="text"
+  							label="MOD_CMG_DJS_DATE"
+  							size="30"
+  						>
+        			   <option value="1">MOD_CMG_DJS_DATEBZ</option>
+              </field>
+
+      					<field
+      						name="url"
+      						type="text"
+      						label="MOD_CMG_DJS_URL"
+      						size="30"
+      						required="true"
+      					/>
+
+  			</fieldset>
+      </fields>
+    </config>
+
+</extension>
